@@ -12,6 +12,8 @@ body{
 .btn{
     width: fit-content;
     margin-left:10px;
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
 }
 .mark{
     background-color:rgb(23, 68, 151);
@@ -33,12 +35,42 @@ body{
     align-items: center;
     width: 50vw;
     margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+    transition:all 0.5s ease; 
+}
+.todo:hover{
+    color:rgb(243, 240, 240);
+    background-color: rgb(104, 40, 194);
+}
+.todo:hover > .todo-content{
+    color:white;
+}
+.todo-items-completed{
+    color:blue;
+    opacity: 0.4;
+    cursor:not-allowed;
 }
 .todo-content{
     flex-grow: 1;
     color: rgb(42, 42, 42);
     font-weight: 600;
     text-align: left;
+}
+::-webkit-scrollbar{
+    background-color: rgba(101, 9, 199, 0.743);
+    box-shadow: 0px 0px 50px 1px rgba(197, 104, 247, 0.843);
+    border-radius: 20px;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: hwb(0 7% 93%);
+    border-radius: 30px;
+}
+.btn:hover{
+    opacity: 1;
+    transform: scale(1.05);
 }
 @media(max-width:600px){
     .btn{

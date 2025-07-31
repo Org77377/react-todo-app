@@ -47,7 +47,7 @@ function ToDoItem({data, updateList}){
                     <div key={index} className="todo-container">
                         <div className='todo'>
                             <div className='todo-content'>
-                            {!data.complete ? <p className="todo-items">{data.text}</p> : <strike><p className="todo-items">{data.text}</p></strike>}
+                            {!data.complete ? <p className="todo-items">{data.text}</p> : <strike><p className="todo-items-completed">{data.text}</p></strike>}
                             </div>
                             <div className='todo-btn'>
                             <button className="btn edit" onClick={()=>edit(index)}><span className='btn-txt' >Edit</span><i class="fa-solid fa-pen-to-square"></i></button>
