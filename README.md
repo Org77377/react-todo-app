@@ -1,12 +1,27 @@
-# React + Vite
+# Todo App
+#### This is a simple react todo app 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Tech Stack
+``` Html ```
+``` CSS ```
+``` JS ```
+    --> ``` React ```
+    ``` Tailwind ```
+<hr color="violet"/>
 
-Currently, two official plugins are available:
+<p>Here how to use the application</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ol>
+    <li>Open app using run dev</li>
+    <li>To add a todo simply type in the input field and click on the add button</li>
+    <li>After todo is added you can
+    <strong>Edit, Mark, Delete</strong> the todo item
+    </li>
+    <li>To mark the task just click on mark button</li>
+    <li>To delete the task just click on delete button</li>
+    <li>To edit the task just click on edit button and in the prompt add new task description</li>
+</ol>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h4>Project is available in Git</h4>
+<p>Click on below button to access the git project</p>
+<button><a href="https://github.com/Org77377/react-todo-app/" style="color:black;text-decoration:none;">Git</a></button>
